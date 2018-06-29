@@ -1,23 +1,23 @@
 /*! Place your custom styles here */
 .btn--primary, .btn--primary:visited, .btn--primary-1, .btn--primary-1:visited {
-  background: #FFA02F !important;
-  border-color: #FFA02F !important;
+  background: #FFA02F;
+  border-color: #FFA02F;
 }
 
 .bg--primary, .label:not([class*='bg--']), .bg--primary-1 {
-  background: #08c1ee !important;
+  background: #08c1ee;
 }
 
 .bg--primary div:not([class*='feature']) .btn--primary .btn__text, a {
-  color: #08c1ee !important;
+  color: #08c1ee;
 }
 
 .btn--primary:hover, .btn--primary:visited:hover, .btn--primary-1:hover, .btn--primary-1:visited {
-  background: #E8922B !important;
+  background: #E8922B;
 }
 
 .bg--primary div:not([class*='feature']) .btn--primary .btn__text:hover, a:hover {
-  color: #E8922B !important;
+  color: #E8922B;
 }
 
 .m-b-0 {
