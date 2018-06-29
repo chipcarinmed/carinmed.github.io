@@ -1,10 +1,10 @@
 /*! Place your custom styles here */
-.btn--primary, .btn--primary:visited {
+.btn--primary, .btn--primary:visited, .btn--primary-1, .btn--primary-1:visited {
   background: #FFA02F;
   border-color: #FFA02F;
 }
 
-.bg--primary {
+.bg--primary, .label:not([class*='bg--']), .bg--primary-1 {
   background: #08c1ee;
 }
 
@@ -12,7 +12,7 @@
   color: #08c1ee;
 }
 
-.btn--primary:hover {
+.btn--primary:hover, .btn--primary:visited:hover, .btn--primary-1:hover, .btn--primary-1:visited {
   background: #E8922B;
 }
 
@@ -25,6 +25,10 @@
 }
 .m-b-2em {
   margin-bottom: 2em;
+}
+
+.background-image-holder {
+  background-position: 0% 0% !important;
 }
 
 @media only screen and (max-width: 1024px) {
